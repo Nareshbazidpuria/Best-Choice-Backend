@@ -45,9 +45,37 @@ export const responseMessage = {
   PASSWORD_CHANGED: 'Password changed successfully.',
   LOGGED_OUT: 'Logged out successfully.',
   PROFILE_GET_SUCCESS : 'Profile get successfully.',
+  PRODUCT_ADDED : 'Product added successfully.',
 };
 
 export const statusEnum = {
   ACTIVE: "active", 
   INACTIVE: "inActive", 
+};
+
+export const sizeEnum = {
+  S: "S", 
+  M: "M", 
+  L: "L", 
+  XL: "XL", 
+  XXL: "XXL", 
+  XXXL: "XXXL", 
+};
+
+export const categoriesEnum = {
+  SHOES: "Shoes", 
+  SHIRT: "Shirt", 
+  T_SHIRT: "T Shirt", 
+  PENT: "Pent", 
+  LOWER: "Lower", 
+  ELECTRONICS: "Electronics", 
+};
+
+export const colorEnum = {
+  RED: "Red", 
+  WHITE: "White", 
+  BLACK: "Black", 
+  BLUE: "Blue", 
+  YELLOW: "Yellow", 
+  GREY: "Grey", 
 };
