@@ -1,4 +1,5 @@
 import { model, Schema } from "mongoose";
+import { statusEnum } from "../../config/constant";
 
 const user = new Schema({
   name: {
@@ -9,6 +10,11 @@ const user = new Schema({
   },
   password: {
     type: String
+  },
+  status: {
+    type: String,
+    default: statusEnum.ACTIVE,
+    enum: Object.values(statusEnum)
   },
 })
 

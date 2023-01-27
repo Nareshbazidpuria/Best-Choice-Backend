@@ -14,3 +14,17 @@ export const loginValidation = {
     password: Joi.string().required().min(8),
   })
 }
+
+export const forgotPasswordValidation = {
+  body: Joi.object({
+    email: Joi.string().required(),
+  })
+}
+
+export const setPasswordValidation = {
+  body: Joi.object({
+    otp: Joi.string().required(),
+    token: Joi.string().required(),
+    password: Joi.string().required(),
+  })
+}

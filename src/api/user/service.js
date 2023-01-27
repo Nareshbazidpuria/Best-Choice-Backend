@@ -16,6 +16,6 @@ export const getUserService = (filter) => {
 //   return User.findOneAndDelete({_id: id})
 // }
 
-// export const updateUserService = (id, body) => {
-//   return User.findOneAndUpdate({_id: id}, body, {new: true})
-// }
+export const updateUserService = (filter, body) => {
+  return User.findOneAndUpdate(filter, body, {new: true})
+}

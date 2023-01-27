@@ -11,3 +11,7 @@ export const getAuthService = (filter) => {
 export const logoutService = (filter) => {
   return Auth.findOneAndDelete(filter)
 }
+
+export const logoutAllService = (filter) => {
+  return Auth.deleteMany(filter)
+}

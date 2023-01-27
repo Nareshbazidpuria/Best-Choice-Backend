@@ -15,6 +15,7 @@ export const responseCode = {
   METHOD_NOT_ALLOWED: 405,
   NOT_ACCEPTABLE: 406,
   CONFLICT: 409,
+  NO_LONGER_AVAILABLE: 410,
   TOO_MANY_REQUESTS: 429,
   INTERNAL_SERVER_ERROR: 500,
   BAD_GATEWAY: 502,
@@ -38,6 +39,10 @@ export const responseMessage = {
   USER_NOT_FOUND: 'There is no any account associated with this email.',
   INCORRECT_PASSWORD: 'Incorrect password.',
   LOGIN_SUCCESS: 'Logged in successfully.',
+  OTP_SENT: 'OTP sent successfully.',
+  OTP_EXPIRED: 'OTP expired. Please resend.',
+  INVALID_OTP: 'Invalid OTP.',
+  PASSWORD_CHANGED: 'Password changed successfully.',
   LOGGED_OUT: 'Logged out successfully.',
   PROFILE_GET_SUCCESS : 'Profile get successfully.',
 };
