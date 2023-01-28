@@ -29,7 +29,7 @@ const product = new Schema({
     type: String
   },
   ratings: {
-    type: Array
+    type: Number
   },
 })
 

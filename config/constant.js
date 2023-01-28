@@ -46,6 +46,7 @@ export const responseMessage = {
   LOGGED_OUT: 'Logged out successfully.',
   PROFILE_GET_SUCCESS : 'Profile get successfully.',
   PRODUCT_ADDED : 'Product added successfully.',
+  PRODUCT_GET_SUCCESS : 'Products listing.',
 };
 
 export const statusEnum = {

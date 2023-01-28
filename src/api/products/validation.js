@@ -10,6 +10,6 @@ export const addProductsValidation = {
     price: Joi.number(),
     quantity: Joi.number(),
     image: Joi.string(),
-    ratings: Joi.array(),
+    ratings: Joi.number(),
   })
 }

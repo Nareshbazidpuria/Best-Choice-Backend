@@ -4,6 +4,10 @@ export const addProductService = (body) => {
   return Product.create(body)
 }
 
+export const getProductsService = (filter) => {
+  return Product.find(filter)
+}
+
 // export const getProductService = (filter) => {
 //   return Product.findOne(filter)
 // }
